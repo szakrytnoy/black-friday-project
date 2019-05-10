@@ -28,7 +28,7 @@ y_test = y(idx(round(train_p*n)+1:end));
 
 % Growing a tree
 tree = fitctree(X_train, y_train); % Fit on training data
-imp = predictorImportance(tree)
+imp = predictorImportance(tree);
 
 % Plot importance of predictors
 figure;
