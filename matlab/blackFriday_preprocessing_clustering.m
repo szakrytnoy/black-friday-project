@@ -289,6 +289,3 @@ scatter(Xgrp3(:,6),Xgrp3(:,5),[],Xgrp3.Cluster,'filled')
 title('City - Prefered Category')
 
 % additional charts
-
-% Classification analysis
-
